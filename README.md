@@ -65,23 +65,31 @@ print(length)
 In this example, the length of the string "Blue" and "Mike" are printed in that order. 
 
 #### Classic Method for Swapping two Variables
+Temporary variables are used to remporarily hold the value of one of the variables so that the original value is not lst during the swap process.
 
 **Input values for a and b**
 ````
 a = input("Enter value for a: ")
 b = input("Enter value for b: ")
 ````
-**Display original values**
-````
-print(f"Original a: {a}, b: {b}")
-````
+
 **Swap the values**
 ````
 c = a  # Save the value of a in temporary variable c
 a = b  # Assign the value of b to a
 b = c  # Assign the saved value (original a) to b
 ````
-**Display swapped values**
+
+**Display original and swapped values**
 ````
-print(f"Swapped a: {a}, b: {b}")
+print("a: " + a)
+print("b: " + b)
 ````
+
+### f-strings
+The `print(f"")` statement in Python is used for **formatted string literals**, also known as **f-strings**. Introduced in Python 3.6, f-strings provide a way to embed expressions inside string literals, using curly braces `{}`.
+
+### Basic Usage 
+To create an f-string, you prefix the string with the letter `f` or `F`, followed by a string in double quotes `" "` or single quotes `' '`. Inside the string, you can include variables and expressions within curly braces `{}` that will be evaluated at runtime and formatted into the string.”
+
+
