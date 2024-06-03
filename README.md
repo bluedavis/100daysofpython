@@ -30,7 +30,9 @@ Fucntions can live inside other functions.
 
 ### Input Function
 `input()` - can bring in the value that's in the input pane
+
 `print(input())` - prints the input
+
 `print("Hello" + " " + input())` - input function runs first, then prints `Hello + the string responding to the input()`
 
 ### Integer Function 
@@ -38,11 +40,14 @@ Fucntions can live inside other functions.
 
 ### Length Function
 `len()` - length of a string
+
 `print(len(input()))` - prints the length of the string in the input
 
 ### Variables
 `var1` = variable; can be varied; used to store data in assigned variable
+
 `var1 = input("")` - assigns a variable to the input
+
 `print(var1)` - prints the variable
 
 eg. assiging a value to a variable:
