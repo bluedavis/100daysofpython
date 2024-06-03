@@ -62,3 +62,22 @@ name = input("What is your name? ")
 length = len(name)
 print(length)
 ```
+In this example, the length of the string "Blue" and "Mike" are printed in that order. 
+
+#### Classic Method for Swapping two Variables
+
+*Input values for a and b*
+a = input("Enter value for a: ")
+b = input("Enter value for b: ")
+
+*Display original values*
+print(f"Original a: {a}, b: {b}")
+
+*Swap the values*
+c = a  # Save the value of a in temporary variable c
+a = b  # Assign the value of b to a
+b = c  # Assign the saved value (original a) to b
+
+*Display swapped values*
+print(f"Swapped a: {a}, b: {b}")
+
