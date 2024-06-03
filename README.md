@@ -55,8 +55,8 @@ You can combine different methods for more complex strings.
 
 * What \n Does: When Python encounters \n within a string, it moves the cursor to the beginning of the next line before continuing to display text.
 * When to Use \n:
-*     To format the output of text to make iut easier to read.
-*     To print multiple lines of text and separate them.
+  * To format the output of text to make iut easier to read.
+  * To print multiple lines of text and separate them.
 
 #### Comments & Undo Changes
 
