@@ -2,6 +2,12 @@
 a udemy python course
 
 ## Section 1: Day 1 - Beginner - Working with Variables in Python to Manage Data
+  - print() function
+  - input() function
+  - Variables
+  - New Lines, Strinbg Manipulation
+  - Debugging
+
 ### Printing & String Manipulation
 `print("Hello World!")`
 
@@ -12,8 +18,10 @@ Three ways to add quote(s) within a string:
 - `print('A "double quote" inside a single quote')`
 - `print("Alternatively you can just \"escape\" the quote")`
 
-#### Spacing
+#### Spacing & New Lines
 `print("Hello" + " " + "Blue"`
+
+`\n` - new line at the end of a string
 
 #### Comments & Undo Changes
 
@@ -28,7 +36,7 @@ Undo
 Fucntions can live inside other functions.
 
 ### Input Function
-`input()` - can bring in the value that's in the input pane
+`input()` - a prompt for the user
 
 `print(input())` - prints the input
 
@@ -62,7 +70,7 @@ name = input("What is your name? ")
 length = len(name)
 print(length)
 ```
-In this example, the length of the string "Blue" and "Mike" are printed in that order. 
+In this example, the variable name has a value of "Blue" and "Mike". When asked to input "What is your name?" the value of name is decided and the length of the string ("Blue" or "Mike") is printed. 
 
 #### Classic Method for Swapping two Variables
 Temporary variables are used to remporarily hold the value of one of the variables so that the original value is not lst during the swap process.
