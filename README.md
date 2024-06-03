@@ -2,7 +2,7 @@
 a udemy python course
 
 ## Section 1: Day 1 - Beginner - Working with Variables in Python to Manage Data
-Learning Outcomes:
+**Learning Outcomes:**
   - print() function
   - input() function
   - Variables
@@ -10,19 +10,53 @@ Learning Outcomes:
   - Debugging
 
 ### Printing & String Manipulation
-`print("Hello World!")`
+
+`print()` - used to show the text or values you specify inside the parentheses. It's a way for your program to communicate with you by showing messages, numbers, or other information
+
+e.g. `print("Hello World!")`  
 
 #### Quotations
-Three ways to add quote(s) within a string:
+You can use different types of quotation marks, escape characters, or even triple quotes. Here are some common ways to include  quotations within a string:
 
-- `print("A 'single quote' inside a double quote")` 
-- `print('A "double quote" inside a single quote')`
+**Ways to show quotations within a string in Python**
+
+* Using different types of quotation marks
+If your string is enclosed in double quotes, you can include single quotes inside it without any special treatment, and vice versa.
+`print("A 'single quote' inside a double quote")`
+`print('A "double quote" inside a single quote')`
+
+* Using Escape Characters
+You can use the backslash \ to escape quotation marks within a string.
 - `print("Alternatively you can just \"escape\" the quote")`
+- `print('Alternatively you can just \'escape\' the quote')`
+
+* Using Triple Quotes
+Triple quotes (either ''' or """) allow you to include both single and double quotes without escaping them. Triple quotes are also useful for multi-line strings.
+
+`print("""He said, "Hello!" and she replied, 'Hi there!'""")`
+`print('''He said, "Hello!" and she replied, 'Hi there!' ''')`
+
+*Combining Methods
+You can combine different methods for more complex strings.
+
+`print("He said, \"It's a great day!\"")`
+`print('She replied, "Yes, it\'s wonderful!"')`
+
+**Summary**
+
+- Escape Characters: Required when using the same type of quote inside a string (e.g., double quotes inside double quotes).
+- Mixing Quotes: Use different types of quotes to avoid the need for escape characters.
+- Triple Quotes: Useful for including both single and double quotes without escaping and for multi-line strings.
 
 #### Spacing & New Lines
 `print("Hello" + " " + "Blue"`
 
-`\n` - new line at the end of a string
+`\n` - represents a newline character. It is used to move the cursor to the next line when printing text. Here's a simple breakdown:
+
+* What \n Does: When Python encounters \n within a string, it moves the cursor to the beginning of the next line before continuing to display text.
+* When to Use \n:
+*     To format the output of text to make iut easier to read.
+*     To print multiple lines of text and separate them.
 
 #### Comments & Undo Changes
 
