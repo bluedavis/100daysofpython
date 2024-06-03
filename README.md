@@ -6,7 +6,7 @@ a udemy python course
   - print() function
   - input() function
   - Variables
-  - New Lines, Strinbg Manipulation
+  - New Lines, String Manipulation
   - Debugging
 
 ### Printing & String Manipulation
@@ -48,7 +48,7 @@ You can combine different methods for more complex strings.
 - Mixing Quotes: Use different types of quotes to avoid the need for escape characters.
 - Triple Quotes: Useful for including both single and double quotes without escaping and for multi-line strings.
 
-#### Spacing & New Lines
+### Spacing & New Lines
 `print("Hello" + " " + "Blue"`
 
 `\n` - represents a newline character. It is used to move the cursor to the next line when printing text. Here's a simple breakdown:
@@ -60,35 +60,34 @@ You can combine different methods for more complex strings.
 
 #### Comments & Undo Changes
 
+**Comments**
+
 - Use the hashtag symbol `#` to make a line of code a comment
 - Highlight the code and use keys: `command + \` for mac or `Ctrl + \` for windows
 
-Undo
+**Undo**
 - Hold down the keys keys: `command + z` for mac or `Ctrl + z` for windows
 
-
-### Functions
-Fucntions can live inside other functions.
-
-### Input Function
+### Input, Integer and Length Functions
+#### Input Function
 `input()` - a prompt for the user
 
-`print(input())` - prints the input
+`print(input())` - prints the input recieved from a user's prompt
 
-`print("Hello" + " " + input())` - input function runs first, then prints `Hello + the string responding to the input()`
+`print("Hello" + " " + input())` - input function runs first, then prints `Hello + the string input from user`
 
-### Integer Function 
+#### Integer Function 
 `int()` - turn string into integer
 
-### Length Function
+#### Length Function
 `len()` - length of a string
 
 `print(len(input()))` - prints the length of the string in the input
 
 ### Variables
-`var1` = variable; can be varied; used to store data in assigned variable
+`var1` = is an example of a variable; they are used to store data
 
-`var1 = input("")` - assigns a variable to the input
+`var1 = input("")` - assigns a variable to the output of input() function
 
 `print(var1)` - prints the variable
 
@@ -105,7 +104,7 @@ name = input("What is your name? ")
 length = len(name)
 print(length)
 ```
-In this example, the variable name has a value of "Blue" and "Mike". When asked to input "What is your name?" the value of name is decided and the length of the string ("Blue" or "Mike") is printed. 
+In this example, the variable name has a value of "Blue" and "Mike". When asked to input "What is your name?" the value of name ("Blue" or "Mike") is input by user and the length of the name (a string) is printed. 
 
 #### Classic Method for Swapping two Variables
 Temporary variables are used to remporarily hold the value of one of the variables so that the original value is not lst during the swap process.
