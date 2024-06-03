@@ -127,11 +127,16 @@ b = c  # Assign the saved value (original a) to b
 print("a: " + a)
 print("b: " + b)
 ````
+## Section 2: Day 2 - Beginner - Understanding Data Types and How to Manipulate Strings
+**Learning Outcomes:**
+- Data Types
+- Numbers
+- Operations
+- Type Conversion
+- f-Strings
 
 ### f-strings
 The `print(f"")` statement in Python is used for **formatted string literals**, also known as **f-strings**. Introduced in Python 3.6, f-strings provide a way to embed expressions inside string literals, using curly braces `{}`.
 
-### Basic Usage 
+#### Basic Usage 
 To create an f-string, you prefix the string with the letter `f` or `F`, followed by a string in double quotes `" "` or single quotes `' '`. Inside the string, you can include variables and expressions within curly braces `{}` that will be evaluated at runtime and formatted into the string.”
-
-
