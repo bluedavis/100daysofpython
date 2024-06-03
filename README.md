@@ -16,13 +16,12 @@ Three ways to add quote(s) within a string:
 `print("Hello" + " " + "Blue"`
 
 #### Comments & Undo Changes
-To add a comment(s) to your code: 
 
-- Use the hashtag symbol `#`
-- Highlight the code and use... for mac: `command + \` keys ... for windows: `Ctrl + \` keys
+- Use the hashtag symbol `#` to make a line of code a comment
+- Highlight the code and use keys: `command + \` for mac or `Ctrl + \` for windows
 
 Undo
-- Hold down the keys ... for mac: `command + z` ... for windows ` Ctrl + z`
+- Hold down the keys keys: `command + z` for mac or `Ctrl + z` for windows
 
 
 ### Functions
