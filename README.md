@@ -4,8 +4,6 @@ a udemy python course
 ## Section 1: Day 1 - Beginner - Working with Variables in Python to Manage Data
 ### Printing & String Manipulation
 
-
-
 `print("Hello World!")`
 
 #### Quotations
@@ -31,6 +29,23 @@ Undo
 - Hold down the keys ... for mac: `command + z` ... for windows ` Ctrl + z`
 
 
-## Functions
+### Functions
+
+Fucntions can live inside other functions
 ### Input Function
+
+`input()` - can bring in the value that's in the input pane
+`print(input())` - prints the input
+`print("Hello" + " " + input())` - input function runs first, then prints `Hello + the string responding to the input()`
+
+### Integer Function 
+
+`int()` - turn string into integer
+
+### Length Function
+`len()` - length of string
+`print(len(input()))` - prints the length of the string in the input
+
+### Variables
+
 
