@@ -80,7 +80,7 @@ You can combine different methods for more complex strings.
 `int()` - turn string into integer
 
 #### Length Function
-`len()` - length of a string
+`len()` - count the number of characters in a string
 
 `print(len(input()))` - prints the length of the string in the input
 
